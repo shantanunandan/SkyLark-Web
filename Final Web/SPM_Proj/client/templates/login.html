@@ -17,7 +17,8 @@
 		var password = document.getElementById("password");
 		
 		if(email.value.match("admin") && password.value.match("admin")){
-		  window.location="../index.html";
+		  alert("Welcome "+email.value);
+		  window.location="user.html";
 		} else {
 			alert("No match");
 			return false;
